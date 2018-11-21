@@ -1,0 +1,23 @@
+table tr {
+  color: red;
+}
+table tr:first-child {
+  color: cyan;
+}
+table tr:last-child {
+  color: yellow;
+}
+table tr:nth-child(5) {
+  color: teal;
+}
+table tr:nth-child(odd) {
+  background: green;
+}
+table tr:nth-child(even) {
+  background: skyblue;
+}
+table tr td {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=misc_nth-child.css.map */

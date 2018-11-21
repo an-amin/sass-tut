@@ -1,0 +1,14 @@
+.box {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.box:hover {
+  margin-left: 100px;
+  -webkit-transition: 1 sec all;
+  -ms-transition: 1 sec all;
+  transition: 1 sec all;
+}
+
+/*# sourceMappingURL=mixin_1.css.map */

@@ -1,0 +1,6 @@
+.foo {
+  background: orange;
+  &.block {
+    border: 1px solid;
+  }
+}

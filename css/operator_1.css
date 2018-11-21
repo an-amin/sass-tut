@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+}
+
+.box1 {
+  height: 100px;
+  background: orange;
+  float: left;
+  width: 31.25%;
+}
+
+.box2 {
+  height: 100px;
+  background: tomato;
+  float: right;
+  width: 52.0833333333%;
+}
+
+/*# sourceMappingURL=operator_1.css.map */

@@ -1,0 +1,19 @@
+.box {
+  -webkit-transition: 5s all;
+  -ms-transition: 5s all;
+  transition: 5s all;
+  height: 100px;
+  width: 100px;
+  background: orange;
+  margin-top: 100px;
+}
+
+.box:hover {
+  background: yellow;
+  margin-left: 150px;
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/*# sourceMappingURL=mixin_1.css.map */

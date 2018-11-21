@@ -1,0 +1,20 @@
+$a_color:green;
+
+ul{
+	margin-left:100px;
+	li{
+		list-style:none;
+
+		a{
+			text-decoration:none;
+			color:$a_color;
+		}
+	}:hover{
+		list-style-image: url('../img/hand.ico');
+		a{
+			color:blue;
+		}:hover{
+			color:red;
+		}
+	}
+}

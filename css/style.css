@@ -1,0 +1,34 @@
+/*
+ * Partials
+ */
+/* This CSS will print because %message-shared is extended. */
+.warning, .error, .success, .message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: red;
+}
+
+.success {
+  background: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+div {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

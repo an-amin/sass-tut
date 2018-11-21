@@ -1,0 +1,25 @@
+@import 'partials/config';
+
+.message {
+  @extend %message-shared;
+}
+
+.success {
+  @extend %message-shared;
+  @extend %equal-heights;
+  border-color: green;
+}
+
+.error {
+  @extend %message-shared;
+  border-color: red;
+}
+
+.warning {
+  @extend %message-shared;
+  border-color: yellow;
+}
+
+div{
+	margin:10px;
+}

@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+}
+
+.box1{
+	height:100px;
+	background:orange;
+  float: left;
+  width: 300px / 960px * 100%;
+}
+
+.box2{
+	height:100px;
+	background:tomato;
+  float: right;
+  width: 500px / 960px * 100%;
+}

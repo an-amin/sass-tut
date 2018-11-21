@@ -1,0 +1,30 @@
+table{
+	tr{
+		color:red;
+
+		&:first-child{
+			color:cyan;
+		}
+
+		&:last-child{
+			color:yellow;
+		}
+
+		&:nth-child(5){
+			color:teal;
+		}
+		
+		&:nth-child(odd){
+			background:green;
+		}
+		
+		&:nth-child(even){
+			background:skyblue;
+		}
+
+		td{
+			padding: (2.5+2.5) * 2 * 1px;
+		}
+
+	}
+}
